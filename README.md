@@ -23,3 +23,4 @@ If you want to know who racketeered this... We, the jamps, did
 <img src="https://www.renuo.ch/images/portraits/alessandro-rodi.jpg" alt="Alessandro" width="100px">
 <img src="https://www.renuo.ch/images/portraits/matthias-fehr.jpg" alt="Matthias" width="100px">
 <img src="https://www.renuo.ch/images/portraits/pascal-andermatt.jpg" alt="Pascal" width="100px">
+<img src="https://www.renuo.ch/images/portraits/felix-kubli.jpg" alt="Felix" width="100px">
