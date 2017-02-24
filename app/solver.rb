@@ -12,9 +12,13 @@ require_relative 'rodi_algorithm.rb'
 # ruby solver.rb medium SplitterAlgorithm
 puts 'hello! '
 input_file_name = ARGV[0] || 'simple'
-algorithm = Object.const_get(ARGV[1] || 'BasicAlgorithm')
+
+algorithm_name = ARGV[1] || 'BasicAlgorithm'
+
+algorithm = Object.const_get(algorithm_name)
 file_path = "input_sets/#{input_file_name}.in"
-output_path = "output_sets/#{ARGV[1] || 'BasicAlgorithm'}/#{input_file_name}.out"
+Dir.mkdir "output_sets/#{algorithm_name}" unless File.exists?("output_sets/#{algorithm_name}")
+output_path = "output_sets/#{algorithm_name}/#{input_file_name}.out"
 world = FileReader.new(file_path).world
 solution = algorithm.new(world).solve
 puts 'invalid solution' unless solution.valid?
