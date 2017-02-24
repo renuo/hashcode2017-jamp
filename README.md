@@ -3,6 +3,17 @@
 This evening [Renuo](https://renuo.ch) hosted the Google Hashcode 2017 as
 an official hub.
 
+## Run
+### ARGV
+```ruby
+input_file_name = ARGV[0] || 'simple'
+algorithm_name = ARGV[1] || 'BasicAlgorithm'
+```
+### To run
+```
+ruby app/solver.rb me_at_the_zoo BasicAlgorithm
+```
+
 ## Solution
 
 Our team reached the following scores with the code in this repository:
