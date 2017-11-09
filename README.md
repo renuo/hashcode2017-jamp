@@ -26,6 +26,10 @@ Our team reached the following scores with the code in this repository:
 | Videos worth spreading   |  483203     |
 | **Total**                | **2048546** |
 
+
+![image](https://user-images.githubusercontent.com/20790833/32616154-ee6512ce-c571-11e7-8673-430278448d91.png)
+
+
 ## Team
 
 If you want to know who racketeered this... We, the jamps, did.
